@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-07T21:02:14 IST" name="Default suite" finished-at="2022-12-07T21:03:05 IST" duration-ms="50392">
+    <groups>
+    </groups>
+    <test started-at="2022-12-07T21:02:14 IST" name="Default test" finished-at="2022-12-07T21:03:05 IST" duration-ms="50392">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@5c82cd4f]" started-at="2022-12-07T21:02:14 IST" name="setup" finished-at="2022-12-07T21:02:50 IST" duration-ms="36073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc01_login()[pri:0, instance:tests.LoginTest@5c82cd4f]" started-at="2022-12-07T21:02:51 IST" name="tc01_login" finished-at="2022-12-07T21:02:52 IST" duration-ms="1116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_login -->
+        <test-method is-config="true" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@5c82cd4f]" started-at="2022-12-07T21:02:52 IST" name="failedTest" finished-at="2022-12-07T21:02:52 IST" duration-ms="437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01_login status=SUCCESS method=LoginTest.tc01_login()[pri:0, instance:tests.LoginTest@5c82cd4f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method signature="tc02_login()[pri:0, instance:tests.LoginTest@5c82cd4f]" started-at="2022-12-07T21:02:52 IST" name="tc02_login" finished-at="2022-12-07T21:02:53 IST" duration-ms="590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_login -->
+        <test-method is-config="true" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@5c82cd4f]" started-at="2022-12-07T21:02:53 IST" name="failedTest" finished-at="2022-12-07T21:02:53 IST" duration-ms="405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02_login status=SUCCESS method=LoginTest.tc02_login()[pri:0, instance:tests.LoginTest@5c82cd4f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method signature="tc03_login(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@5c82cd4f]" started-at="2022-12-07T21:02:53 IST" name="tc03_login" data-provider="getData" finished-at="2022-12-07T21:02:56 IST" duration-ms="2491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mh18979@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dsfsdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_login -->
+        <test-method is-config="true" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@5c82cd4f]" started-at="2022-12-07T21:02:56 IST" name="failedTest" finished-at="2022-12-07T21:02:56 IST" duration-ms="356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc03_login status=SUCCESS method=LoginTest.tc03_login(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@5c82cd4f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method signature="tc03_login(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@5c82cd4f]" started-at="2022-12-07T21:02:56 IST" name="tc03_login" data-provider="getData" finished-at="2022-12-07T21:02:59 IST" duration-ms="2501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mh18979@gmail.co.il]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[M18h09#79]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_login -->
+        <test-method is-config="true" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@5c82cd4f]" started-at="2022-12-07T21:02:59 IST" name="failedTest" finished-at="2022-12-07T21:02:59 IST" duration-ms="368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc03_login status=SUCCESS method=LoginTest.tc03_login(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@5c82cd4f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method signature="tc03_login(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@5c82cd4f]" started-at="2022-12-07T21:02:59 IST" name="tc03_login" data-provider="getData" finished-at="2022-12-07T21:03:01 IST" duration-ms="2440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mh18979@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dsfsdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_login -->
+        <test-method is-config="true" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@5c82cd4f]" started-at="2022-12-07T21:03:01 IST" name="failedTest" finished-at="2022-12-07T21:03:02 IST" duration-ms="376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc03_login status=SUCCESS method=LoginTest.tc03_login(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@5c82cd4f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method signature="tc04_login()[pri:0, instance:tests.LoginTest@5c82cd4f]" started-at="2022-12-07T21:03:02 IST" name="tc04_login" finished-at="2022-12-07T21:03:04 IST" duration-ms="2394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_login -->
+        <test-method is-config="true" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@5c82cd4f]" started-at="2022-12-07T21:03:04 IST" name="failedTest" finished-at="2022-12-07T21:03:05 IST" duration-ms="629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc04_login status=SUCCESS method=LoginTest.tc04_login()[pri:0, instance:tests.LoginTest@5c82cd4f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
